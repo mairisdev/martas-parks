@@ -31,7 +31,7 @@ interface HeaderProps {
   className?: string
 }
 
-export default function Header({ className }: HeaderProps) {
+export default function TopBar({ className }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [isLoggedIn, setIsLoggedIn] = useState(false) // Simulēts state
